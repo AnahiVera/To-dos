@@ -1,12 +1,69 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background-color: #98e9e1;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color:  #f85509;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #87ceeb;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .todo-input:focus {
+    border-color: #ff69b4;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #ffebcd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li i {
+    color: #ff4500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  li i:hover {
+    color: #ff69b4;
+  }
+  
+  small {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #e26ad8;
+  }
