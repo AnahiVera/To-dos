@@ -22,10 +22,10 @@ export const TodoForm = () => {
               }
             }}
             placeholder="What do yo need to do?"></input>
-        </li>
+        </li >
         {todos.map((item, index) => (
-          <li>
-            {item}{""} <i class="fa-solid fa-trash" onClick={() =>
+          <li >
+            {item}{""} <i class="trash fa-trash" onClick={() =>
               setTodos(
                 todos.filter(
                   (t, currentIndex) => index != currentIndex )

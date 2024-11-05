@@ -80,14 +80,15 @@ li {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-li i {
+i {
+  color: transparent;
+}
+
+li:hover i  {
+  display: inline;
   color: #ff4500;
   cursor: pointer;
   transition: color 0.3s ease;
-}
-
-li i:hover {
-  color: #cccafd;
 }
 
 small {
@@ -96,3 +97,5 @@ small {
   font-size: 1.1em;
   color: #e26ad8;
 }
+
+
