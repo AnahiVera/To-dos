@@ -1,42 +1,37 @@
-# Hello World with React boilerplate
+#  📓📌 To Do Lists 
 
-Start coding a react application
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+## Characteristics and functionalities
 
-## How to start coding?
+The To-dos project is a React-based application designed to help users efficiently manage their daily tasks. It features an intuitive and visually appealing interface with a feminine and cute CSS style, allowing users to add tasks via input, display them in a list, and remove tasks with a simple click on a trash icon. Additionally, the application integrates API functionality for seamless CRUD operations (PUT, POST, DELETE), enabling persistent task management. This project showcases the effective use of React's state and props for dynamic interactivity and demonstrates the ability to blend aesthetic design with robust functionality.
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+## Technologies
 
-## Local Installation (skip if you are working on codespaces or gitpod)
 
-Download the boilerplate using git
+ ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+ ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+
+## Execute the project
+
+1. Clone the repository:
+```bash
+git clone [URL-del-repositorio]
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+
+2. Install dependencies:
+```bash
+npm install
 ```
 
-## Publish your website!
+3. Start developer server:
+```bash
+npm run start
+```
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+4. Open your browser at `http://localhost:3000`
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
 
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
-
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
